@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    background-color: #DEE5E5;
+}
+
+
+/* Starting screen CSS */
+#quiz-box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #17B890;
+    color: 50px;
+    height: 600px;
+    width: 700px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px;
+    color: #DEE5E5;
+}
+
+#quiz-box .card-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px;
+    border: 10px solid #9DC5BB;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #9DC5BB;
+    color: #5E807F;
+}
+
+#quiz-box h2 {
+    padding: 50px;
+    font-size: 50px;
+}
+
+#quiz-box #start-button {
+    font-size: 50px;
+    border: 5px solid #9DC5BB;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #9DC5BB;
+    color: #DEE5E5;
+    width: 300px;
+}
+
+#quiz-box #start-button:hover {
+    background-color: #5E807F;
+    cursor: pointer;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 10px;
+    border: 10px solid #9DC5BB;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #9DC5BB;
+    color: #5E807F;
+}
+
+/* Question screen CSS */
+#quiz-question {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #17B890;
+    color: 50px;
+    height: 600px;
+    width: 700px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px;
+    color: #DEE5E5;
+}
+
+#quiz-question h2 {
+    padding: 50px;
+    font-size: 50px;
+}
+
+#quiz-question .answer {
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    font-size: 40px;
+    border: 5px solid #9DC5BB;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #5E807F;
+    color: #DEE5E5;
+}
+
+#quiz-question .answer:hover {
+    background-color: #17B890;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+#quiz-question2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #17B890;
+    color: 50px;
+    height: 600px;
+    width: 700px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px;
+    color: #DEE5E5;
+}
+
+#quiz-question2 h2 {
+    padding: 50px;
+    font-size: 50px;
+}
+
+#quiz-question2 .answer {
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    font-size: 40px;
+    border: 5px solid #9DC5BB;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #5E807F;
+    color: #DEE5E5;
+}
+
+#quiz-question2 .answer:hover {
+    background-color: #17B890;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+#quiz-question3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #17B890;
+    color: 50px;
+    height: 600px;
+    width: 700px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px;
+    color: #DEE5E5;
+}
+
+#quiz-question3 h2 {
+    padding: 50px;
+    font-size: 50px;
+}
+
+#quiz-question3 .answer {
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    font-size: 40px;
+    border: 5px solid #9DC5BB;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #5E807F;
+    color: #DEE5E5;
+}
+
+#quiz-question3 .answer:hover {
+    background-color: #17B890;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+#quiz-question4 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #17B890;
+    color: 50px;
+    height: 600px;
+    width: 700px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px;
+    color: #DEE5E5;
+}
+
+#quiz-question4 h2 {
+    padding: 50px;
+    font-size: 50px;
+}
+
+#quiz-question4 .answer {
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    font-size: 40px;
+    border: 5px solid #9DC5BB;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #5E807F;
+    color: #DEE5E5;
+}
+
+#quiz-question4 .answer:hover {
+    background-color: #17B890;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+/* End Screen CSS */
+#end-screen {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+    background-color: #17B890;
+    color: 50px;
+    height: 600px;
+    width: 700px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px;
+    color: #DEE5E5;
+}
+
+#end-screen .card-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px;
+    border: 10px solid #9DC5BB;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #9DC5BB;
+    color: #5E807F;
+}
+
+#end-screen h2 {
+    padding: 50px;
+    font-size: 50px;
+}
+
+#end-screen #return {
+    font-size: 50px;
+    border: 5px solid #9DC5BB;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #9DC5BB;
+    color: #DEE5E5;
+    width: 300px;
+}
+
+#end-screen #clear-scores {
+    font-size: 50px;
+    border: 5px solid #9DC5BB;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #9DC5BB;
+    color: #DEE5E5;
+    width: 300px;
+}
+
+#end-screen #return:hover {
+    background-color: #5E807F;
+    cursor: pointer;
+}
+
+#end-screen #clear-scores:hover {
+    background-color: #5E807F;
+    cursor: pointer;
+}

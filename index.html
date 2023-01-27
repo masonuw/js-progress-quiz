@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Progress Quiz</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <div id="timer">200</div>
+    <div id="quiz-box">
+        <div class="card-title">JavaScript Progress Quiz</div>
+        <h2>Ready to start? Click "Start Quiz" to begin.</h2>
+        <button id="start-button">
+            <h3 class="start-text">Start Quiz</h3>
+        </button>
+    </div>
+    <div class="hide" id="quiz-question">
+        <h2 id="real-question">What does 'var varName = ' do?</h2>
+        <div id="question-answers-list">
+            <button class="answer" id="q1a1">Creates a function.</button>
+            <button class="answer" id="q1a2">Calls a function.</button>
+            <button class="answer" id="q1a3">Deletes a variable.</button>
+            <button class="answer" id="q1a4">Creates a variable.</button>
+        </div>
+    </div>
+    <div class="hide" id="quiz-question2">
+        <h2 id="real-question">What is the JavaScript file type?</h2>
+        <div id="question-answers-list">
+            <button class="answer" id="q2a1">.java</button>
+            <button class="answer" id="q2a2">.js</button>
+            <button class="answer" id="q2a3">.javascript</button>
+            <button class="answer" id="q2a4">.script</button>
+        </div>
+    </div>
+    <div class="hide" id="quiz-question3">
+        <h2 id="real-question">What is JavaScript's role on a webpage?</h2>
+        <div id="question-answers-list">
+            <button class="answer" id="q3a1">To create and execute written functions.</button>
+            <button class="answer" id="q3a2">To change the styling of the page.</button>
+            <button class="answer" id="q3a3">To do nothing.</button>
+            <button class="answer" id="q3a4">To build the structure of the webpage.</button>
+        </div>
+    </div>
+    <div class="hide" id="quiz-question4">
+        <h2 id="real-question">How do you create a function in JavaScript?</h2>
+        <div id="question-answers-list">
+            <button class="answer" id="q4a1">createfunction (functionName)</button>
+            <button class="answer" id="q4a2">#function functionName</button>
+            <button class="answer" id="q4a3">functionName function()</button>
+            <button class="answer" id="q4a4">function functionName</button>
+        </div>
+    </div>
+    <div class="hide" id="end-screen">
+        <div class="card-title">JavaScript Quiz Results</div>
+        <h2>How'd you do? Want to play again?</h2>
+        <h2 id="userscorefinal"></h2>
+        <div class="end-buttons">
+            <button id="return">
+                <h3 class="start-text">Back to Menu</h3>
+            </button>
+            <button id="clear-scores">
+                <h3 class="start-text">Clear Scores</h3>
+            </button>
+        </div>
+    </div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
+
+The only user interaction on this webpage is through following the instruction buttons found on the page. The starting page can be found in this screenshot.
